@@ -19,9 +19,14 @@ public class Usuario implements IEntidade {
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
 	private int idUsuario;
+	
 	@Column(length =  150, nullable = false )
 	private String nome;
+	
+	@Column(length =  50, nullable = false )
 	private String login;
+	
+	@Column(length =  150, nullable = false )
 	private String senha;
 
 	

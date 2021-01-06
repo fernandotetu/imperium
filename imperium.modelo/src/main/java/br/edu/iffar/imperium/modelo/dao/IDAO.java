@@ -52,6 +52,6 @@ public interface IDAO {
 	 * @return codigo utilizado para busca
 	 * 
 	 */
-	public Patrimonio buscaPorID(int id);
+	public IEntidade buscaPorID(int id);
 
 }

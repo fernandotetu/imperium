@@ -2,6 +2,16 @@ package br.edu.iffar.imperium.modelo.entidade;
 
 import java.util.Date;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
 /**
  * <p>
  * Representa um objeto da organização
@@ -10,18 +20,36 @@ import java.util.Date;
  * @author Professor
  * @since Dec 15, 2020 8:51:43 PM
  */
-
+@Entity
 public class Patrimonio implements IEntidade {
-
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idPatrimonio;
+	@Column(length = 200, nullable = false)
 	private String descricao;
+	
+	@Column
 	private double valorCompra;
+	
+	@Column
 	// quantidade do item
 	private int quantidade;
+	
+	@Column
+	@Temporal(TemporalType.DATE)
 	private Date dataCompra;
+	
+	@ManyToOne
+	@JoinColumn(name = "idTipoPatrimonio", nullable = false)
 	private TipoPatrimonio tipoPatrimonio;
+	
+	@ManyToOne
+	@JoinColumn(name = "idSituacaoPatrimonio")
 	private SituacaoPatrimonio situacaoPatrimonio;
 
+	
+	
+	
 	public Date getDataCompra() {
 		return dataCompra;
 	}

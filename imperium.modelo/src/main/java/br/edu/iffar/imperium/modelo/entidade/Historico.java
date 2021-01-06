@@ -1,6 +1,17 @@
 package br.edu.iffar.imperium.modelo.entidade;
 
+import java.awt.desktop.QuitStrategy;
 import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 /**
  * <p>
@@ -10,12 +21,21 @@ import java.util.Date;
  * @author Professor
  * @since Dec 15, 2020 8:58:44 PM
  */
-
+@Entity
 public class Historico implements IEntidade {
-
+	@Id
+	@GeneratedValue(strategy =GenerationType.IDENTITY)
 	private int idHistorico;
+	
+	@Column(nullable = false)
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date dataMovimentacao;
+	@ManyToOne
+	@JoinColumn(name = "idPatrimonio", nullable =  false)
 	private Patrimonio patrimonio;
+	
+	@ManyToOne
+	@JoinColumn(name = "idUsuario")
 	// usuario resp pelo patrimonio
 	private Usuario usuario;
 
