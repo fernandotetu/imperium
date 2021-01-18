@@ -26,6 +26,12 @@
 			<version>1.0</version>
 		</dependency>
 
-	
+		<dependency>
+			<groupId>br.edu.iffar</groupId>
+			<artifactId>imperium.dao.hibernate</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+
 	</dependencies>
 </project>

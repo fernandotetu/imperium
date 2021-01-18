@@ -16,4 +16,11 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>br.edu.iffar</groupId>
+  		<artifactId>imperium.modelo</artifactId>
+  		<version>1.0</version>
+  	</dependency>
+  </dependencies>
 </project>

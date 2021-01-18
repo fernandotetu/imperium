@@ -1,4 +1,4 @@
-package imperium.dao.hibernate;
+package br.edu.iffar.imperium.dao.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

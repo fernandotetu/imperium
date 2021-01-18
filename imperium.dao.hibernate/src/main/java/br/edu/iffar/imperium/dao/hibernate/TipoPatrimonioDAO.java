@@ -1,4 +1,4 @@
-package imperium.dao.hibernate;
+package br.edu.iffar.imperium.dao.hibernate;
 
 import br.edu.iffar.imperium.modelo.dao.ITipoPatrimonioDAO;
 import br.edu.iffar.imperium.modelo.entidade.TipoPatrimonio;
