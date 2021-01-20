@@ -1,4 +1,4 @@
-package imperium.visao.web;
+package br.edu.iffar.imperium.visao.web.controllers;
 
 import br.edu.iffar.imperium.controle.UsuarioLogic;
 import br.edu.iffar.imperium.dao.hibernate.HibernateDAO;
