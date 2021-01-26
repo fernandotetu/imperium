@@ -1,6 +1,5 @@
 package br.edu.iffar.imperium.modelo.entidade;
 
-import javax.annotation.processing.Generated;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

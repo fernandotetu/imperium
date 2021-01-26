@@ -5,7 +5,6 @@ import java.util.List;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 
-import br.edu.iffar.imperium.modelo.dao.FabricaDAO;
 import br.edu.iffar.imperium.modelo.dao.IDAO;
 import br.edu.iffar.imperium.modelo.dao.IFabricaDAO;
 import br.edu.iffar.imperium.modelo.entidade.IEntidade;

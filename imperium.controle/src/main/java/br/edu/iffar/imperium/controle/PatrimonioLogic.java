@@ -1,10 +1,7 @@
 package br.edu.iffar.imperium.controle;
 
-import java.util.List;
-
 import br.edu.iffar.imperium.modelo.dao.IPatrimonioDAO;
 import br.edu.iffar.imperium.modelo.entidade.Patrimonio;
-import br.edu.iffar.imperium.modelo.entidade.Usuario;
 
 /**
  * <p>

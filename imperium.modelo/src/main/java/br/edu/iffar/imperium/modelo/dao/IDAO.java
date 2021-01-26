@@ -3,7 +3,6 @@ package br.edu.iffar.imperium.modelo.dao;
 import java.util.List;
 
 import br.edu.iffar.imperium.modelo.entidade.IEntidade;
-import br.edu.iffar.imperium.modelo.entidade.Patrimonio;
 
 /**
  * <p>

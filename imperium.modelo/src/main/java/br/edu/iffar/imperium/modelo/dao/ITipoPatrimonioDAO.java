@@ -1,10 +1,5 @@
 package br.edu.iffar.imperium.modelo.dao;
 
-import java.util.List;
-
-import br.edu.iffar.imperium.modelo.entidade.Patrimonio;
-import br.edu.iffar.imperium.modelo.entidade.TipoPatrimonio;
-
 /**
  * <p>
  *  Especifica os comportamentos para os tipos de patrimonios

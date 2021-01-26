@@ -1,9 +1,6 @@
 package br.edu.iffar.imperium.controle;
 
-import java.util.List;
-
 import br.edu.iffar.imperium.modelo.dao.IUsuarioDAO;
-import br.edu.iffar.imperium.modelo.entidade.IEntidade;
 import br.edu.iffar.imperium.modelo.entidade.Usuario;
 
 /**

@@ -1,6 +1,5 @@
 package br.edu.iffar.imperium.modelo.entidade;
 
-import java.awt.desktop.QuitStrategy;
 import java.util.Date;
 
 import javax.persistence.Column;
