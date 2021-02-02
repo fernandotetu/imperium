@@ -10,6 +10,11 @@
 		 <property name="hbm2ddl.auto">update</property>
 	
 		 <mapping  class="br.edu.iffar.imperium.modelo.entidade.Usuario" /> 
+		 <mapping  class="br.edu.iffar.imperium.modelo.entidade.TipoPatrimonio" /> 
+		 <mapping  class="br.edu.iffar.imperium.modelo.entidade.SituacaoPatrimonio" />
+		 <mapping  class="br.edu.iffar.imperium.modelo.entidade.Patrimonio" />
+		 <mapping  class="br.edu.iffar.imperium.modelo.entidade.Historico" />
+		  
 		 		  
 	</session-factory>
 
